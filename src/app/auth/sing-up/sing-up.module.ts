@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SingUpRoutingModule } from './sing-up-routing.module';
 import { SingUpComponent } from './components/sing-up/sing-up.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { SingUpComponent } from './components/sing-up/sing-up.component';
   ],
   imports: [
     CommonModule,
-    SingUpRoutingModule
+    SingUpRoutingModule,
+    MaterialModule
   ]
 })
 export class SingUpModule { }
